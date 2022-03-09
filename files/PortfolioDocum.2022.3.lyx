@@ -42,7 +42,7 @@
 \pdf_colorlinks false
 \pdf_backref false
 \pdf_pdfusetitle true
-\papersize default
+\papersize letterpaper
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -69,12 +69,12 @@
 \color #008000
 \end_index
 \leftmargin 1cm
-\topmargin 1cm
+\topmargin 2cm
 \rightmargin 1cm
-\bottommargin 1cm
-\headheight 0cm
-\headsep 0cm
-\footskip 0cm
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
 \secnumdepth 2
 \tocdepth 2
 \paragraph_separation indent
@@ -96,6 +96,8 @@
 \begin_body
 
 \begin_layout Title
+
+\series bold
 Portfolio de recherche documentaire : 
 \begin_inset Newline newline
 \end_inset
@@ -116,11 +118,7 @@ Pascal Martinolli (Université de Montréal)
 \end_layout
 
 \begin_layout Date
-version 2022.3
-\end_layout
-
-\begin_layout Date
-[Brouillon/ Document de travail non définitif]
+version 2022.3.1 [Document de travail non définitif]
 \end_layout
 
 \begin_layout Chapter*
@@ -132,7 +130,11 @@ Public cible
 \end_layout
 
 \begin_layout Itemize
-Principalement : Chercheur universitaire en cycle supérieur ou en post-doctorat.
+Principalement : Chercheur universitaire en 
+\series bold
+cycle supérieur ou en post-doctorat
+\series default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -144,18 +146,69 @@ Objectifs
 \end_layout
 
 \begin_layout Itemize
-Fournir à un chercheur de cycle supérieur un cadre linéaire pour acquérir
- les compétences informationnelles de base pour l'exercice de son métier
- de chercheur.
+Fournir à un chercheur de cycle supérieur un 
+\series bold
+cadre linéaire et modulaire
+\series default
+ pour acquérir les 
+\series bold
+compétences informationnelles
+\series default
+ de base à l'exercice de son métier de chercheur.
 \end_layout
 
 \begin_layout Itemize
-Servir de journal de bord des ressources explorées et exploitées.
+Servir de 
+\series bold
+journal de bord
+\series default
+ des ressources explorées et exploitées.
 \end_layout
 
 \begin_layout Itemize
-Proposer une auto-réflection sur sa pratique et ses méthodes de recherche
- documentaire.
+Proposer une 
+\series bold
+auto-réflection
+\series default
+ sur sa pratique et ses méthodes de recherche documentaire.
+\end_layout
+
+\begin_layout Section*
+Comment utiliser ce manuel ?
+\end_layout
+
+\begin_layout Itemize
+Option 1 : Téléchargez-le au format PDF.
+ 
+\series bold
+Imprimez-le
+\series default
+.
+ Suivez les instructions et 
+\series bold
+complétez manuellement avec un crayon/stylo
+\series default
+ les chapitres pertinents pour vos besoins.
+\end_layout
+
+\begin_layout Itemize
+Option 2 : Téléchargez-le au format PDF.
+ Puis suivez les instructions des chapitres pertinents pour vos besoins.
+ Les 
+\series bold
+liens sont cliquables
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Option 3 : Téléchagez-le au format LibreOffice ou MS Word.
+ Suivez les instructions et 
+\series bold
+complétez électroniquement dans le fichier
+\series default
+ les chapitres pertinents pour vos besoins.
 \end_layout
 
 \begin_layout Section*
@@ -312,7 +365,7 @@ Légende
 \begin_inset Formula $\square$
 \end_inset
 
- : Case à cocher vous-même si la tâche est complétée.
+ : Case à cocher si la tâche est complétée.
  
 \end_layout
 
@@ -338,7 +391,8 @@ Légende
 \end_layout
 
 \begin_layout Itemize
-☕ : Cette tâche prend 15-20 minutes environ.
+☕ : Cette tâche prend le temps d'une pause café.
+ 15-20 minutes environ.
 \end_layout
 
 \begin_layout Itemize
@@ -346,35 +400,8 @@ Légende
 \end_layout
 
 \begin_layout Itemize
-(☕/⌚) : Prend entre 15 minutes et 1 heure en fonction de l'attention que
- vous y prêtez.
-\end_layout
-
-\begin_layout Itemize
 BIB+ : demandez de l'aide à votre bibliothécaire disciplinaire pour gagner
- du temps.
- 
-\end_layout
-
-\begin_layout Itemize
-BLSH : Bibliothèque des lettres et sciences humaines de l'Université de
- Montréal
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-.
+ du temps :
 \end_layout
 
 \begin_deeper
@@ -409,12 +436,57 @@ Nom de mon bibliothécaire disciplinaire :
 .
 \end_layout
 
+\begin_layout Plain Layout
+Je lui ai écris : 
+\begin_inset Formula $\square$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Je l'ai rencontré : 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Programme de jumelage : 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+BLSH : Bibliothèque des lettres et sciences humaines de l'Université de
+ Montréal
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Avertissements
 \end_layout
@@ -435,7 +507,7 @@ Crédits
 \end_layout
 
 \begin_layout Itemize
-Ce document a été révisé par :
+Ce document a été révisé par : < pas de révision pour le moment >
 \end_layout
 
 \begin_layout Itemize
@@ -448,7 +520,7 @@ Remerciement spécial aux étudiante et étudiants du séminaire PLU6058 qui
 Voir bibliographie pour la liste exhaustive des ressources des utilisées.
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Mon identité numérique de chercheur
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -463,7 +535,7 @@ name "chap:MonID"
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Pourquoi ?
 \end_layout
 
@@ -510,7 +582,7 @@ target "https://www.raccoursci.com/astuce/communication-scientifique-strategie-e
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Exercice préparatoire
 \end_layout
 
@@ -520,7 +592,7 @@ Mettez-vous dans la peau d'un professeur qui évalue une de vos demandes
 \end_layout
 
 \begin_layout Itemize
-Ouvrir le métamoteur de recherche Google
+Ouvrez le métamoteur de recherche Google
 \begin_inset Foot
 status open
 
@@ -543,7 +615,7 @@ target "https://www.google.com"
 \begin_inset Formula $\square$
 \end_inset
 
- Lancer une recherche avec : 
+ Lancez des recherches avec : 
 \end_layout
 
 \begin_deeper
@@ -567,17 +639,17 @@ Prénom Nom
 
 \end_deeper
 \begin_layout Itemize
-Les résultats reflètent-ils précisément qui vous êtes ? Quelles sont vos
- recherches ? Quels sont vos accomplissements ? Si vous voulez améliorer
- ça, ce chapitre est pour vous.
+Les résultats reflètent-ils qui vous êtes, vos recherches, vos réussites
+ ? Avec suffisament de précision ? Si vous voulez améliorer ça, ce chapitre
+ est pour vous.
  
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Identifiants principaux
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 \begin_inset Formula $\square$
 \end_inset
 
@@ -646,8 +718,11 @@ Pourquoi ?
 
 \begin_deeper
 \begin_layout Itemize
-ORCID est devenu l’identifiant pérenne de chercheur le plus utilisé à ce
- jour.
+ORCID est devenu l’
+\series bold
+identifiant pérenne
+\series default
+ de chercheur le plus utilisé à ce jour.
  
 \end_layout
 
@@ -988,7 +1063,7 @@ Edit
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 \begin_inset Formula $\square$
 \end_inset
 
@@ -1117,11 +1192,11 @@ Métaprofil choisi :
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Autres identifiants 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 D'autres identifiants reconnus de chercheurs
 \end_layout
 
@@ -1151,7 +1226,7 @@ target "https://publons.com/search/"
  Connectez-vous avec votre ORCID.
  Si vous faites de la révision par les pairs d'articles de revues scientifiques,
  faites reconnaître votre travail et mesurez l'impact de vos pulications
- avec Publons.(☕/⌚)
+ avec Publons.(⌚)
 \end_layout
 
 \begin_layout Itemize
@@ -1200,13 +1275,34 @@ target "https://cv.archives-ouvertes.fr/"
  Surtout pour les chercheurs français mais ouvert aux chercheurs francophones.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 \begin_inset Formula $\square$
 \end_inset
 
  Wikidata 
 \end_layout
 
+\begin_layout Itemize
+Pourquoi ? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Wikidata est devenu l'outil fédérateur de tous les identifiants ouverts
+ de chercheurs.
+ Il est aussi utilisé par les moteurs de recherche sémantiques (comme Google)
+ pour améliorer leurs résultats de recherche.
+ Indirectement, avoir un identifiant Wikidata bien indexé et bien aligné
+ peut améliorer votre présence dans les résultats de recherche.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comment ? (⌚) 
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Éligibilité : En juin 2019, le consensus sur la notoriété
 \begin_inset Foot
@@ -1225,21 +1321,12 @@ target "https://www.wikidata.org/wiki/Wikidata:Notability/fr https://www.wikidat
 \end_inset
 
  des éléments de Wikidata dit qu'il est possible de se créer un élément
- wikidata à la condition d'avoir publié au moins un article dans une revue
+ Wikidata à la condition d'avoir publié au moins un article dans une revue
  universitaire avec comité de lecture ou un livre dont on est l'auteur.
 \end_layout
 
 \begin_layout Itemize
-Pourquoi ? Wikidata est devenu l'outil fédérateur de tous les identifiants
- ouverts de chercheurs.
- Il est aussi utilisé par les moteurs de recherche sémantiques (comme Google)
- pour améliorer leurs résultats de recherche.
- Comment ?
-\end_layout
-
-\begin_layout Itemize
-Comment ? (☕/⌚) Tutoriel et suggestions pour créer ou améliorer son identifiant
- Wikidata
+Tutoriel et suggestions pour créer ou améliorer son identifiant Wikidata
 \begin_inset Foot
 status open
 
@@ -1279,11 +1366,7 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-Identifiant Wikidata : Q
+Mon identifiant Wikidata : Q
 \end_layout
 
 \begin_layout Plain Layout
@@ -1298,12 +1381,23 @@ Identifiant Wikidata : Q
 \end_deeper
 \begin_layout Itemize
 Avertissement : Il est recommandé de se créer un compte Wikimedia et d'ajouter
- la page de votre élément Q à votre liste de suivi (watchlist) pour être
- alerté de toutes modifications sur celui-ci.
+ la page de votre élément Q à votre liste de suivi (
+\emph on
+watchlist
+\emph default
+) pour être alerté de toutes modifications sur celui-ci.
  Si vous avez une page Wikipédia à votre nom, faîtes de même.
  En effet, il est possible que des personnes mal informées ou mal intentionnées
- indexent des déclarations (statements) privées ou diffamatoires.
- Si c'est le cas, envoyer un courriel immédiat au Wikidata Oversight
+ indexent des déclarations (
+\emph on
+statements
+\emph default
+) privées ou diffamatoires.
+ Si c'est le cas, envoyer un courriel immédiat au 
+\emph on
+Wikidata Oversight
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -1326,6 +1420,7 @@ target "https://www.wikidata.org/wiki/Wikidata:Oversight"
  (P140), Medical condition (P1050), Cause of death (P509),...
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 et Wikipédia ? Au contraire de Wikidata, il est très mal vu de rédiger sa
  propre page Wikipédia.
@@ -1349,7 +1444,7 @@ target "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Notori%C3%A9t%C3%A9_des_per
  et de faire rédiger la page par des personnes tierces.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Page web personnelle
 \end_layout
 
@@ -1366,8 +1461,8 @@ OU un site web sur lequel vous avez un contrôle plus avancé (blogue de recherc
 
 \begin_deeper
 \begin_layout Itemize
-Suggestion pour les étudiants de l'Université de Montréal.
- Créer une page avec Portfolio.
+Suggestion pour les étudiants de l'Université de Montréal : créer une page
+ avec Portfolio UdeM.
  Exemple
 \begin_inset Foot
 status open
@@ -1426,7 +1521,7 @@ Page web personnelle :
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Optionnel: créer des redirections sur des sites commerciaux de profils
 \end_layout
 
@@ -1499,7 +1594,7 @@ target "https://linktr.ee/pascaliensis"
  ☕
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Faites des micropublications ou des prépublications
 \end_layout
 
@@ -1510,7 +1605,7 @@ ement une réputation avec des étapes moins fastidieuses que la soutenance
  de thèse ou la publication d’articles révisés par les pairs.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Bloguez sur votre sujet de recherche
 \end_layout
 
@@ -1528,7 +1623,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Déposez vos publications dans des dépôts en libre accès
 \end_layout
 
@@ -1653,20 +1748,63 @@ target "https://github.com/"
 \end_inset
 
  : pour partager vos codes source.
+ Exemple : le code source de ce guide se trouve sur GitHub pour faciliter
+ sa réutilisation par d'autres
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/pmartinolli/PortfolioDocum"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Section*
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
 Faites du réseautage professionnel, généraliste ou universitaire
 \end_layout
 
-\begin_layout Standard
-Si vous décidez d’investir les réseaux sociaux, n’hésitez pas à compartimenter
- vie privée et vie de chercheur-euse, ayez une stratégie ciblée sur des
- objectifs et soyez prêt à en changer à tout moment en fonction du coût-bénéfice
--risque.
+\begin_layout Itemize
+Pourquoi ? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si vous décidez d’investir les réseaux sociaux, n’hésitez pas à 
+\series bold
+compartimenter
+\series default
+ vie privée et vie de chercheur.
+\end_layout
+
+\begin_layout Itemize
+Ayez une stratégie ciblée sur des 
+\series bold
+objectifs
+\series default
+ et soyez prêt à en changer à tout moment en fonction d'une évaluation régulière
+ de son 
+\series bold
+coût-bénéfice-risque
+\series default
+.
  
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+Suggestions : 
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $\square$
 \end_inset
@@ -1689,6 +1827,8 @@ target "https://ca.linkedin.com/"
 
  : Pour faire du réseautage professionnel (CV en ligne, contacts, posts
  courts ou articles longs).
+ Dans certains milieux de la recherche (service de soins de santé, éducation-lud
+ification, etc.) c'est un outil de réseautage pertinent.
 \end_layout
 
 \begin_layout Itemize
@@ -1712,7 +1852,7 @@ target "https://twitter.com/"
 \end_inset
 
  : Pour s'abonner à des flux d'information et redistribuer les plus intéressants.
- 
+ (voir chapitre)
 \end_layout
 
 \begin_layout Itemize
@@ -1778,7 +1918,8 @@ Attention à ne pas enfreindre le droit d'auteur en déposant des articles
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\end_deeper
+\begin_layout Section
 Se tenir à jour et veiller sur ses profils 
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -1818,11 +1959,11 @@ Follow
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Paramétrages informatiques
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Proxy
 \begin_inset Formula $\bigstar\bigstar\bigstar$
 \end_inset
@@ -1856,7 +1997,7 @@ target "https://bib.umontreal.ca/travailler/soutien-informatique/proxy"
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Sauvegarde durable
 \begin_inset Formula $\bigstar\bigstar\bigstar$
 \end_inset
@@ -1870,14 +2011,21 @@ Pourquoi ?
 
 \begin_deeper
 \begin_layout Itemize
-Parce qu'il existe beaucoup de manières de perdre ses données de recherche
- (vol, virus informatique, rançonciel, incendie, inondation, perte, mauvaise
- manipulation, etc.).
+Parce qu'il existe beaucoup de manières de 
+\series bold
+perdre ses données
+\series default
+ de recherche (vol, virus informatique, rançonciel, incendie, inondation,
+ perte, corruption de fichier, mauvaise manipulation, etc.).
  
 \end_layout
 
 \begin_layout Itemize
-Parce que ça arrive SOUVENT.
+Parce que ça arrive 
+\series bold
+souvent
+\series default
+.
  
 \end_layout
 
@@ -1886,7 +2034,28 @@ Parce qu'avec quelques stratégies simples de sauvegarde (
 \emph on
 backup
 \emph default
-), on élimine 99,9% des risques.
+), on 
+\series bold
+élimine 99,9% des risques
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Pour progresser dans votre recherche de manière assurée et avec 
+\series bold
+moins de stress
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Pour vous prendre soin de vos données et ainsi leur donner de la 
+\series bold
+valeur
+\series default
+.
 \end_layout
 
 \end_deeper
@@ -1912,21 +2081,612 @@ target "https://github.com/pmartinolli/TM-Saveorcry"
 
 \end_inset
 
+ à afficher dans son bureau.
+\end_layout
 
-\begin_inset Note Note
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+Grouper
+\series default
+ tous vos dossiers/fichiers reliés à votre recherche dans un dossier maître
+ nommé
+\family typewriter
+ MaRecherche
+\family default
+.
+ Tout se trouve dans un seul endroit.
+ Ainsi, c'est facile à déplacer, à compresser et à repérer.
+ De plus, certains logiciels fonctionnent mieux avec une stabilité de la
+ position des dossiers et des fichiers sur votre ordinateur.
+ 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Votre base Zotero
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-A intégrer dans Portfolio
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.zotero.org/support/fr/zotero_data"
 
 \end_inset
 
 
 \end_layout
 
+\end_inset
+
+.
+ 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Vos données de recherche (images, tableaux).
+ 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Vos textes du mémoire ou de votre thèse.
+ 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
 \end_deeper
-\begin_layout Section*
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\bigstar\bigstar\bigstar$
+\end_inset
+
+Une fois par semaine
+\series default
+, compresser le dossier MaRecherche en un fichier 
+\family typewriter
+MaRecherche2022MMJJ.zip
+\family default
+ (où MMJJ est la date du jour) avec le logiciel 7-zip (voir ci-dessous).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Déposer ce fichier dans OneDrive (voir ci-dessous).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+Une fois par mois
+\series default
+, déposer aussi ce fichier dans un 2e endroit différent de OneDrive et différent
+ de chez vous.
+ C'est votre plan B si OneDrive a un problème.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exemple : une clé USB dans votre laboratoire, un autre infonuage, etc.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\bigstar$
+\end_inset
+
+Dans vos outils, créer une 
+\series bold
+notification
+\series default
+ hebdomadaire 
+\begin_inset Formula $\square$
+\end_inset
+
+ et une alerte mensuelle 
+\begin_inset Formula $\square$
+\end_inset
+
+ pour vous rappeler de le faire (vendredi après-midi?).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Autres bonnes pratiques : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\bigstar$
+\end_inset
+
+« 
+\series bold
+Versionnage
+\series default
+ » : chaque fois que vous modifiez un document, créez une copie nommée avec
+ la date du jour.
+ C'est cette copie que vous modifierez aujourd'hui.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gardez les 
+\series bold
+versions antérieures
+\series default
+.
+ S'il y a beaucoup de fichiers, vous pouvez les déplacer dans un sous-dossier
+ Archives.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Compressez
+\series default
+ pour emboîter (voir ci-dessous).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\bigstar$
+\end_inset
+
+Bien nommez vos fichiers
+\series default
+ : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pas d'espace
+\end_layout
+
+\begin_layout Itemize
+Pas d'accent
+\end_layout
+
+\begin_layout Itemize
+Pas de caractères spéciaux sauf 
+\family typewriter
+-
+\family default
+ 
+\family typewriter
+_
+\family default
+ 
+\family typewriter
+.
+ (
+\family default
+trait d'union, caractère souligné, point)
+\end_layout
+
+\begin_layout Itemize
+N'oubliez pas d'écrire l'extension du fichier (ex: .docx, .pdf) et de ne pas
+ la masquer dans votre système d'exploitation.
+\end_layout
+
+\begin_layout Itemize
+Choisissez un nom qui traversera le temps et qui sera évocateur du contenu.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\bigstar$
+\end_inset
+
+Préférez les 
+\series bold
+formats de fichiers ouverts
+\series default
+ : PDF/A, TXT, TEX, HTML, MD, XML, ODF, RTF, EPUB, SVG, CSV, PNG, etc.
+ (voir chapitre p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "chap:Formats"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Ce sont des formats plus pérennes, plus robustes et mieux compatibles entre
+ différents systèmes ou programmes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Élaborez un 
+\series bold
+plan de gestion de données de recherche
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/gerer-diffuser/gestion-donnees-recherche"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Les données de recherche sont des données issues de l’observation, de l’expérim
+entation ou dérivées de sources existantes qui sont analysées en vue de
+ produire ou de valider des résultats de recherche originaux.
+ De plus en plus d'organismes de financenement demandent à déposer les données
+ de recherche en libre accès.
+ Prenez rendez-vous avec votre bibliothécaire disciplinaire pour en savoir
+ plus à ce sujet.
+ BIB+ 
+\end_layout
+
+\begin_layout Itemize
+Le support 
+\series bold
+électronique est instable et fragile
+\series default
+.
+ Au delà de quelques années, ne faites pas confiance aux disques durs, ni
+ aux CD gravés ou aux DVD gravés, ni aux clés USB.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si vous avez des fichiers électroniques, déplacez-les d'un support à un
+ autre tous les 3 ans.
+ 
+\end_layout
+
+\begin_layout Itemize
+Disques électroniques : Ne les laissez pas inutilisés plus d'un an.
+ Protégez-les de l'humidité, de la chaleur et des chocs.
+ Les disques SSD (smartphones, laptop récents) : Ne devraient pas rester
+ sans l'alimentation de leur batterie pendant longtemps.
+ 
+\end_layout
+
+\begin_layout Itemize
+Les CD/DVD gravés : Gravez vos données sur un CD ou DVD de temps en temps.
+ Protégez-les de l'humidité, de la chaleur, de la lumière, des rayures,
+ de certains feutres marqueurs, des étiquettes collées et des doigts.
+ Préférez les disques argentés ou dorés (pas les bleutés).
+ Préférez les boitiers (pas les pochettes souples).
+ Gravez en vitesse normale et vérifiez la gravure.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Imprimez
+\series default
+ vos documents importants et conservez-les dans un lieu d'
+\series bold
+entreposage durable
+\series default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une photocopie imprimée sur du papier non acide
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://fr.wikipedia.org/wiki/Papier_non_acide"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ peut durer au moins 40 ans (à l'abri de la lumière, de humidité, loin de
+ tout plastique PVC, et sans colle).
+\end_layout
+
+\begin_layout Itemize
+N'oubliez pas de sélectionner et d'imprimer vos feuilles de paie, documents
+ d'assurance, photos de mariage, de naissance, vos poèmes de jeunesse, vos
+ articles, et tout ce que vous avez rédigé et qui a de la valeur pour vous.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ayez un plan d'archivage personnel :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Identifiez ce que je veux archiver : Ce que j'ai créé (texte, images, films
+ montés, etc.) et qui entraînerait un choc émotionnel intense en cas de perte.
+ Mes documents administratifs numérisés (taxes, paies,...).
+ Les plus importants (paies, contrats, actes notariés,...) doivent aussi être
+ imprimés.
+ Ma correspondance (courriels) et ma liste de contacts.
+ Ce que j'ai capturé ou téléchargé (photos, vidéos, bookmarks, références
+ Zotero, captures Evernote, ebooks,...).
+ Mes listes de musiques, de films, de livres,...
+ (la plupart sont retrouvables facilement, alors une liste devrait suffire).
+\end_layout
+
+\begin_layout Itemize
+Sélectionnez les plus importants/ les meilleurs
+\end_layout
+
+\begin_layout Itemize
+Organisez la sélection
+\end_layout
+
+\begin_layout Itemize
+Faites des copies sur des supports multiples, pérennes (papier si possible),
+ à différents endroits 
+\end_layout
+
+\begin_layout Itemize
+Gérez le contenu de temps en temps (vérifiez) 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Entreprosez durablement : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dans un local à température constante, peu humide, sur l'avant-dernière
+ étagère du haut de votre bibliothèque.
+\end_layout
+
+\begin_layout Itemize
+Dans une boîte en carton ; ou mieux dans une boite en plastique Coroplast
+ (mais surtout pas en PVC) ; ou dans des grandes pochettes Ziplock sans
+ PVC ; 
+\end_layout
+
+\begin_layout Itemize
+Astuce pour enlever l'humidité dans des contenants fermés : sachets de gel
+ de silice.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Cahier de recherche papier
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pourquoi ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour y inscrire ses principaux mots de passe, informations de contact importante
+s, etc.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comment ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cahier format lettre.
+ Écrit au crayon gris ou au stylo.
+ Rangé dans un tiroir du laboratoire ou chez soi (pas mobile).
+ 
+\end_layout
+
+\begin_layout Itemize
+Couverture : coller son thésaurus personnel (voir chapitre, p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "chap:ZoteroOrganiser"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), ou le mettre sous couverture plastifiée.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Installer 7-zip : un logiciel d'archivage
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pourquoi ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour mettre des dossiers et des fichiers « dans une boîte » (un fichier
+ d'archivage).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour ouvrir un fichier d'archivage.
+ 
+\end_layout
+
+\begin_layout Itemize
+Pour archiver des versions anciennes en quelques clics et ne pas les confondre
+ avec les fichiers actifs.
+\end_layout
+
+\begin_layout Itemize
+Parce que les logiciels par défaut dans les systèmes d'exploitation sont
+ souvent insuffisants.
+\end_layout
+
+\begin_layout Itemize
+Pour les compresser et gagner un peu de place électronique.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comment ? ☕
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour Windows, MacOS et Linux : 
+\series bold
+installer 7-zip
+\series default
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.7-zip.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, logiciel gratuit.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Installer OneDrive UdeM
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pourquoi ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour avoir un programme qui synchronise le système de fichier sur votre
+ ordinateur et dans l'infonuage.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Partager des documents collaboratifs.
+\end_layout
+
+\begin_layout Itemize
+On peut utiliser OneDrive personnel (5 Go) et OneDrive UdeM (1 To = 1024
+ Go) en même temps sur un ordinateur.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comment ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 façons d'accéder à OneDrive : en ligne par l'interface web
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://o365.umontreal.ca"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, à partir du logiciel MS Word
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Fichier > Ouvrir > OneDrive - Université de Montréal
+\end_layout
+
+\end_inset
+
+, dans l'application OneDrive de l'ordinateur.
+ 
+\end_layout
+
+\begin_layout Itemize
+Règles d'inactivation pour étudiant : 30 jours après un abandon ou à la
+ diplomation.
+ Un avis d'inactivation est envoyé à @umontreal.ca.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
 Navigateur dédié à la recherche
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -1955,7 +2715,7 @@ Pour mieux compartimenter votre attention.
 
 \end_deeper
 \begin_layout Itemize
-Comment ? (☕/⌚) (exemple) 
+Comment ? Exemple : ☕
 \end_layout
 
 \begin_deeper
@@ -1974,10 +2734,11 @@ Extensions recommandées :
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\bigstar$
-\end_inset
 
+\emph on
 PrintFriendly & PDF
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -1994,6 +2755,10 @@ target "https://www.printfriendly.com/"
 \end_inset
 
 
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -2001,9 +2766,6 @@ Connecteur Zotero (voir ci-dessous)
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\bigstar$
-\end_inset
-
 Internet Archives 
 \begin_inset Foot
 status open
@@ -2021,12 +2783,16 @@ target "https://github.com/VerifiedJoseph/Save-to-the-Wayback-Machine"
 \end_inset
 
 
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Logiciel de gestion bibliographique 
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -2034,7 +2800,7 @@ Logiciel de gestion bibliographique
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Zotero 
 \end_layout
 
@@ -2045,7 +2811,7 @@ Pourquoi ? Logiciel libre, simple et puissant pour automatiser la rédaction
 \end_layout
 
 \begin_layout Itemize
-Comment ? (☕/⌚) 
+Comment ? 
 \end_layout
 
 \begin_deeper
@@ -2066,7 +2832,7 @@ target "https://bib.umontreal.ca/public/bib/soutien-informatique/ZOT1-installati
 
 \end_inset
 
-
+☕
 \end_layout
 
 \begin_deeper
@@ -2241,7 +3007,7 @@ target "https://bib.umontreal.ca/"
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Endnote
 \end_layout
 
@@ -2251,7 +3017,7 @@ Très bien aussi.
  Gratuit tant que vous êtes étudiant ou chercheur UdeM.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Éditeur de texte brut 
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -2265,8 +3031,8 @@ Pourquoi ?
 
 \begin_deeper
 \begin_layout Itemize
-Pour éditer des fichiers formatés en texte efficacement : modifications,
- multi-remplacement, changement de format, tris, etc.
+Pour éditer des fichiers formatés en texte : modification, multi-remplacement,
+ changement de format, tri, etc.
 \end_layout
 
 \begin_layout Itemize
@@ -2281,7 +3047,11 @@ Comment ? ☕
 
 \begin_deeper
 \begin_layout Itemize
-Pour PC : Notepad++
+Pour Windows : installer le logiciel libre 
+\emph on
+Notepad++
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -2306,15 +3076,25 @@ target "https://notepad-plus-plus.org/"
 
 \begin_layout Itemize
 Suggestion : s'autoformer aux formats de fichiers, aux multiremplacements
- et aux expressions régulières (Voir chapitre).
+ et aux expressions régulières (Voir chapitre p.
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "chap:Formats"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
-\begin_layout Part*
+\begin_layout Part
 Phase exploratoire
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Objectifs documentaires de la phase exploratoire
 \end_layout
 
@@ -2326,7 +3106,7 @@ Se faire une tête sur son sujet.
 Sans dispercer son attention dans des détails.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Pourquoi ?
 \end_layout
 
@@ -2361,7 +3141,7 @@ Pour ganrantir que l'on a moins d'angle mort dans le traitement du sujet,
  moins de biais ou qu'une notion importante ne nous a pas échappé.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Comment ?
 \end_layout
 
@@ -2404,11 +3184,11 @@ les principales personnes-ressources autour de soi.
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Sources tertiaires et généralistes
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Prenez des notes générales / Faites des listes
 \end_layout
 
@@ -2471,11 +3251,11 @@ noprefix "false"
 ).
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Encyclopédies spécialisées
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 En français : encyclopédies spécialisées surtout imprimées 
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -2527,7 +3307,7 @@ target "http://www.loc.gov/catdir/cpso/lcco/"
 \end_layout
 
 \begin_layout Itemize
-Repérez et notez la ou les principales cotes de classements de votre discipline.
+Repérez et notez les principales cotes de classements de votre discipline.
 \begin_inset Formula $\bigstar$
 \end_inset
 
@@ -2535,8 +3315,8 @@ Repérez et notez la ou les principales cotes de classements de votre discipline
 \end_layout
 
 \begin_layout Itemize
-N'hésitez pas à demander de l'aide au bureau de la référence au centre de
- l'étage.
+N'hésitez pas à demander de l'aide au bureau de la référence au centre du
+ 2e étage de la BLSH.
 \end_layout
 
 \begin_deeper
@@ -2616,7 +3396,7 @@ Parcourez les rayonnages qui contiennent les encyclopédies spécialisées
  Ça peut être des concepts, des courants de pensée, des chercheurs, etc.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 En anglais : encyclopédies spécialisées surtout électroniques 
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -2768,7 +3548,7 @@ OHO
  différents articles).
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Les 
 \emph on
 handbooks of 
@@ -2892,7 +3672,7 @@ ti:sociolog* handbook*
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Les bibliographies
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -3079,7 +3859,7 @@ Si vous êtes en lettres et sciences humaines : allez fureter les bibliographis
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Méthodes de recherche
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -3255,7 +4035,7 @@ status open
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Articles de revue de littérature
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -3689,7 +4469,7 @@ mapping tool
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Encyclopédies généralistes
 \end_layout
 
@@ -3793,7 +4573,7 @@ noprefix "false"
 
 \end_deeper
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Consensus
 \end_layout
 
@@ -3846,7 +4626,7 @@ Vous avez enfin commencer à collecter des références, des notes, des sources,
  les nouvelles informations.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Est-ce que je peux citer tout ça ?
 \end_layout
 
@@ -4207,11 +4987,11 @@ target "https://fr.wikipedia.org/w/index.php?title=Bushido&oldid=184618350"
 \end_layout
 
 \end_deeper
-\begin_layout Part*
+\begin_layout Part
 Phase de recherche exhaustive de documentation
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Objectifs de la phase de recherche exhaustive de documentation
 \end_layout
 
@@ -4237,15 +5017,37 @@ Au moins les 2/3 (plus de 66%) de la documentation pertinente existante
 Collecter les références pertinentes dans Zotero (ou Endnote).
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Recherche documentaire sans mot clé
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Explorer la collection des livres imprimés à la bibliothèque
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Itemize
+J'ai ma 
+\series bold
+carte étudiant
+\series default
+ : je peux emprunter des documents imprimés dans le réseau des Bibliothèques
+ UdeM.
+ 
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hors contexte de COVID : la carte étudiant peut aussi vous permettre d'accéder
+ physiquement aux autres bibliothèques universitaires québécoises (et parfois
+ à leurs services).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
 Cote de classement de la Library of Congress
 \end_layout
 
@@ -4377,7 +5179,7 @@ Cotes de classement de la Library of Congress de mes sujets de recherche
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Cote de classement Dewey
 \end_layout
 
@@ -4457,11 +5259,11 @@ NB: il est possible que certaines bibliothèques aient leur propre système
  pratique d'aller fureter dans les rayons est valable.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Discuter de son sujet 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Avec son directeur de recherche
 \end_layout
 
@@ -4487,7 +5289,7 @@ En consignant vos questions en avance.
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Avec son bibliothécaire disciplinaire
 \end_layout
 
@@ -4549,7 +5351,7 @@ target "https://bib.umontreal.ca/services/jumelage-doctorant"
 .
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Avec vos pairs
 \end_layout
 
@@ -4590,7 +5392,7 @@ Utilisez les collogues, les congrès, les journées d'étude, les séminaires
  
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Utiliser la bibliographie des documents trouvés
 \end_layout
 
@@ -4658,7 +5460,7 @@ bibliography
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Préalable : savoir identifier une référence bibliographique
 \end_layout
 
@@ -4779,7 +5581,7 @@ NB: pour les présentations de congrès, très souvent elles sont diffusées
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Naviguer manuellement d'une référence à l'autre
 \end_layout
 
@@ -4882,11 +5684,11 @@ Y a-t-il des mots clés qui m'ont échappé et avec lesquels je pourrai relancer
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Utiliser les liens de citation de certaines bases de données
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 À partir d'articles de revue de littérature
 \end_layout
 
@@ -4901,7 +5703,7 @@ Comment ? Avec des bases de données de citation comme Web of Science ou
  Google Scholar, ou avec des outils de type Mapping Tools.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Bases de données de citation (
 \emph on
 citation indexes
@@ -5042,7 +5844,7 @@ Sociological Abstracts (sociologie),...
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 
 \emph on
 Mapping Tools
@@ -5070,7 +5872,11 @@ Exercice pratique : allez explorer ces ressources
 
 \begin_deeper
 \begin_layout Itemize
-ResearchRabbit 
+
+\emph on
+ResearchRabbit
+\emph default
+ 
 \begin_inset Foot
 status open
 
@@ -5128,7 +5934,7 @@ Add Papers
 \end_layout
 
 \begin_layout Itemize
-Augmenter la collection avec :
+Augmenter la collection avec les options :
 \end_layout
 
 \begin_deeper
@@ -5200,7 +6006,11 @@ Recommencer encore et encore.
 
 \end_deeper
 \begin_layout Itemize
+
+\emph on
 ConnectedPaper
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -5237,7 +6047,11 @@ target "https://library.smu.edu.sg/topics-insights/3-ways-find-review-papers-sys
 \end_layout
 
 \begin_layout Itemize
+
+\emph on
 Inciteful
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -5258,7 +6072,11 @@ target "https://inciteful.xyz/"
 \end_layout
 
 \begin_layout Itemize
-VOS Viewer 
+
+\emph on
+VOS Viewer
+\emph default
+ 
 \begin_inset Foot
 status open
 
@@ -5274,19 +6092,19 @@ target "https://www.vosviewer.com/"
 
 \end_inset
 
- : ⌚ logiciel gratuit, télécharge un corpus de documents liés à partir de
- plusieurs sources et dessine des tendances thématiques ou des réseaux de
- chercheurs ou d'institutions selon les données chargées.
- Utiles lorsqu’on veut débroussailler un sujet et faire ressortir des réseaux
+ : ⌚ logiciel gratuit hors ligne, télécharge un corpus de documents liés
+ à partir de plusieurs sources et dessine des tendances thématiques ou des
+ réseaux de chercheurs ou d'institutions selon les données chargées.
+ Utile lorsqu’on veut débroussailler un sujet et faire ressortir des réseaux
  de termes, de revues ou d'auteurs importants.
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Recherche documentaire par mot clé
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Principes de base
 \end_layout
 
@@ -5379,7 +6197,7 @@ On peut terminer la recherche en parcourant les résultats avec le regard
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Utiliser le minimum de mots
 \end_layout
 
@@ -5575,7 +6393,7 @@ Fournir une longue liste de mots vides
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Recherche de synonymes 
 \end_layout
 
@@ -5715,7 +6533,7 @@ Dans les thésaurus : des listes de mots clés contrôlés, avec parfois des
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Opérateurs logiques
 \end_layout
 
@@ -5738,7 +6556,7 @@ Les deux plus importants sont AND et la troncature.
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 AND
 \end_layout
 
@@ -5816,7 +6634,7 @@ dementia AND elderly AND board AND games
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Troncature
 \end_layout
 
@@ -5901,7 +6719,7 @@ Par contre, comme c'est une opération informatique très gourmande en ressource
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 OR ( )
 \end_layout
 
@@ -5954,7 +6772,7 @@ Les parenthèses sont importantes pour bien grouper les mots, surtout si
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 "expression entre guillemets carrées"
 \end_layout
 
@@ -6049,7 +6867,7 @@ vérifier si une phrase d'un travail est issue d'un copier-coller du web
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 NOT
 \end_layout
 
@@ -6115,7 +6933,7 @@ drogue* NOT (pharma* OR biochim*)
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Autres
 \end_layout
 
@@ -6148,7 +6966,7 @@ NEAR
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Équation de recherche 
 \end_layout
 
@@ -6176,7 +6994,7 @@ Il est possible de rédiger son équation de recherche dans une seule case,
  
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Essai-erreur 
 \end_layout
 
@@ -6216,7 +7034,7 @@ Annoter ce qui fonctionne bien et ce qui ne fonctionne pas, pour capitaliser
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Trier, filtrer, raffiner, limiter
 \end_layout
 
@@ -6319,7 +7137,7 @@ Par type de méthode : dans certaines bases de données spécialisées (PsychInf
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Adaptation à l'outil de recherche
 \end_layout
 
@@ -6377,7 +7195,7 @@ Exemple : peut-on utiliser des troncatures dans des guillemets ? Il est
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Plan de concept
 \end_layout
 
@@ -6598,7 +7416,7 @@ Notez un élément très intéressant : La colonne O des résultats n'est PAS
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Thésaurus 
 \end_layout
 
@@ -6632,7 +7450,7 @@ Aller explorer les thésaurus de certaines bases de données : MedLine, PsychInf
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Documenter son parcours de recherche
 \end_layout
 
@@ -6696,11 +7514,11 @@ Documenter votre parcours de recherche va rendre aussi votre travail reproductib
 le.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Stratégies de recherche avancée
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Utilisation du NOT quand on n'arrive pas à trouver un mot clé très général.
  
 \end_layout
@@ -6736,7 +7554,7 @@ jeu NOT (enfant* OR kid* OR senior* OR vieux OR elder*)
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Combiner les historiques de recherche.
 \end_layout
 
@@ -6792,7 +7610,7 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Principales sources d'information
 \end_layout
 
@@ -6800,8 +7618,12 @@ Principales sources d'information
 Il existe plusieurs types d'outils de recherche pour repérer des documents.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Outils imprimés
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -6855,7 +7677,7 @@ Table des matières et/ou sommaire.
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Catalogue
 \end_layout
 
@@ -6916,11 +7738,11 @@ une cote de classement si le document est imprimé.
 \end_layout
 
 \begin_layout Itemize
-un statut de prêt (disponible, emprunté, perdu, etc.)
+un statut de prêt (disponible, emprunté, perdu, etc.).
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Sofia
 \begin_inset Foot
 status open
@@ -6938,6 +7760,10 @@ target "https://bib.umontreal.ca/sofia"
 \end_inset
 
 .
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7026,8 +7852,44 @@ Possibilité de chercher des documents dans d'autres Bibliothèques universitair
 Février 2022 : toujours pas de possibilité de créer des alertes.
 \end_layout
 
+\begin_layout Itemize
+Il est possible de demander une Livraison de document : récupérer un livre
+ d'une bibliothèque UdeM dans une autre, ou recevoir un chapitre ou un article
+ numérisé en PDF d'une ressource que nous n'aurions que en imprimé.
+ 
+\end_layout
+
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
+Autres catalogues d'autres bibliothèques universitaires
+\end_layout
+
+\begin_layout Itemize
+Possibilité d'utiliser le service de 
+\series bold
+Prêt entre bibliothèques
+\series default
+ pour faire venir un livre d'une autre université dans le monde
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/emprunter/peb"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
 Catalogue de la BAnQ
 \end_layout
 
@@ -7092,98 +7954,40 @@ NB: avec la carte de la BAnQ, vous pouvez accéder à de nombreuses bases
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Base de données bibliographiques
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Une base de données bibliographiques est un inventaire de références bibliograph
-iques sur une ou plusieurs disciplines.
+Une base de données bibliographiques est une 
+\series bold
+collection de références bibliographiques
+\series default
+ sur une ou plusieurs disciplines.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Il y a quelques bases de données bibliographiques 
+\series bold
+généralistes
+\series default
+, comme par exemple Web of Science ou Google Scholar.
  
 \end_layout
 
 \begin_layout Itemize
-Il y a quelques bases de données bibliographiques généralistes, comme par
- exemple Web of Science.
- Il y a un grand nombre de bases de données bibliographiques spécialisées.
+Il y a un grand nombre de bases de données bibliographiques 
+\series bold
+spécialisées
+\series default
  : Criminal Justice Abstract (criminologie), PsychInfo (en psychologie),
  CINAHL (en sciences infirmières), etc.
-\end_layout
-
-\begin_layout Itemize
-Repérez quelles sont les principales bases de données spécialisées dans
- votre discipline.
- https://bib.umontreal.ca/ > Explorer par discipline > Choisir un ensemble
- de discipline > Choisir une discipline dans la 1ère colonne à gauche.
- Une fois arrivée sur le guide de la discipline, sélectionnez à gauche le
- menu Article ou Trouver des Articles.
- Vous trouverez les principales bases de données dans votre disciplines,
- souvent classées par ordre d'importance.
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-Noms des principales bases de données de ma discipline :
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -7252,258 +8056,28 @@ target "https://bib.umontreal.ca/emprunter/peb"
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection*
-Plateformes
+\begin_layout Subsection
+Web of Science 
+\begin_inset Formula $\bigstar\bigstar$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Souvent les bases de données sont diffusées par des plateformes.
- 
-\end_layout
-
-\begin_layout Itemize
-Une plateforme peut diffuser plusieurs bases de données.
- 
-\end_layout
-
-\begin_layout Itemize
-La qualité du moteur de recherche dépend de la plateforme.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Avec la même requête, il est possible de chercher dans plusieurs bases de
- données d'une même plateforme.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-La qualité de l'indexation dépend de chaque base de données.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Si vous faites une recherche par sujets, il est possible que 2 bases de
- données d'une même plateformes utilisent deux mots clés sujets différents
- pour un même concept.
- Parfois, une base de données n'a pas de sujets et une autre oui.
- Bref, attention à une recherche multibase avec le champ sujet.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Parcours guidé de recherche sur une plateforme :
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Rendez-vous sur la page des Bibliothèques
-\begin_inset Foot
+\begin_layout Standard
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://bib.umontreal.ca/"
-
-\end_inset
-
 
 \end_layout
 
 \end_inset
 
- > Bases de données de A à Z > Tri : Tous les fournisseurs/éditeurs : Sélectionn
-er EBSCO 
-\begin_inset Formula $\square$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Dans la liste, cliquez sur une base de données diffusée par EBSCO 
-\begin_inset Formula $\square$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Dans la base de données, hébergée par EBSCO, cliquez sur Choose Database.
- Select All ou faites un sélection pertinente de base de données 
-\begin_inset Formula $\square$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Itemize
-Lancez une recherche.
- Désormais, cette recherche va se faire sur toutes les bases de données
- sélectionnées 
-\begin_inset Formula $\square$
-\end_inset
-
-.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Rappel : attention au champ Sujet, très inégal selon les bases de données.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-Autres plateformes multibases majeures :
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Web of Science
-\end_layout
-
-\begin_layout Itemize
-ProQuest
-\end_layout
-
-\end_deeper
-\begin_layout Subsection*
-Ensemble de revues en ligne
-\end_layout
-
-\begin_layout Itemize
-Parfois certaines maisons d'édition possèdent une masse critique importantes
- de revues universitaires et d'articles.
- Ils décident alors de proposer un moteur de recherche « maison » pour chercher
- dans ce fond.
- Selon les maisons d'édition, le moteur de recherche est plus ou moins performan
-t.
-\end_layout
-
-\begin_layout Itemize
-Quelques ensembles de revues pertinents :
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Erudit.org
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://www.erudit.org/"
-
-\end_inset
-
 
 \end_layout
 
-\end_inset
-
- : revues universitaires et culturelles canadiennes.
-\end_layout
-
-\begin_layout Itemize
-JSTOR
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://www.jstor.org/"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-: une insitution qui numérise des revues universitaires anciennes.
-\end_layout
-
-\begin_layout Itemize
-ScienceDirect
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://www.sciencedirect.com/"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- : le moteur de recherche de la maison d'édition Elsevier et de ses revues.
-\end_layout
-
-\begin_layout Itemize
-Wiley Online Library
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://onlinelibrary.wiley.com/"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- : maison d'édition Wiley.
-\end_layout
-
-\begin_layout Itemize
-etc.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Pourquoi faire des recherches dans ces ensembles, puisque si les bases de
- données bibliographiques ont bien fait leur travail, je ne devrais y trouver
- que des choses que je connais déjà ?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Parfois les bases de données bibliographiques ont des lacunes.
-\end_layout
-
-\begin_layout Itemize
-Parfois les ensembles de revues diffusent aussi d'autres types de documents
- : actes de colloques, livres électroniques, encyclopédies spécialisées,...
- 
-\end_layout
-
-\begin_layout Itemize
-Ça prend 15 minutes ☕ pour faire une recherche simple avec quelques mots
- clés (pas trop) pour tester le contenu de chaque ensemble.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Rarement, ces ensembles proposent de faire des alertes.
- Faites-en.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Subsection*
+\begin_layout Subsection
 Google Scholar
 \begin_inset Foot
 status open
@@ -7518,6 +8092,10 @@ target "https://scholar.google.fr/"
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Formula $\bigstar\bigstar$
 \end_inset
 
 
@@ -7658,7 +8236,508 @@ noprefix "false"
 
 \end_deeper
 \end_deeper
-\begin_layout Section*
+\begin_layout Subsection
+BASE Search
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Repérer une ou plusieurs bases de données spécialisées de votre discipline
+\end_layout
+
+\begin_layout Itemize
+Repérez quelles sont les principales bases de données 
+\series bold
+spécialisées
+\series default
+ dans votre discipline : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/"
+
+\end_inset
+
+ > Explorer par discipline > Choisir un ensemble de discipline > Choisir
+ une discipline dans la 1ère colonne à gauche.
+ Une fois arrivée sur le guide de la discipline, sélectionnez à gauche le
+ menu Article ou Trouver des Articles.
+ Vous trouverez les principales bases de données dans votre disciplines,
+ souvent classées par ordre d'importance.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Noms des principales bases de données de ma discipline :
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ne pas hésiter à demander de l'aide à votre bibliothécaire disciplinaire
+ pour savoir si, par rapport à votre sujet, vous avez une liste complète
+ des principales bases de données bibliographiques.
+ BIB+
+\end_layout
+
+\begin_layout Section
+Mapping tools et index de citation
+\end_layout
+
+\begin_layout Itemize
+Ce sont des bases de données bibliographiques généralistes avec une fonctionnali
+té supplémentaire et centrale : les 
+\series bold
+liens de citation 
+\series default
+entre les références bibliographiques.
+\end_layout
+
+\begin_layout Itemize
+La plus célèbre est Web of Science mais de nombreux acteurs ont emmergé
+ : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+dans les années 2000 (Google Scholar et Scopus)
+\end_layout
+
+\begin_layout Itemize
+et les années 2020 (avec le mouvement OpenCitation qui a ouvert les données
+ de citation : OpenAlex, Scite, Dimensions, Lens, ResearchRabbit, etc.).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Selon ces outils, il est possible de :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+compléter une recherche par mots clés avec une exploration des relations
+ de citation.
+ Ces outils sont parfois appelés index de citation.
+\end_layout
+
+\begin_layout Itemize
+ou d'effectuer uniquement des explorations de relations de citation à partir
+ d'un ou plusieurs documents.
+ Ces outils sont parfois appelés mapping tools.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Méthodes d'utilisation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Les outils sont très nombreux et parfois ils sont très différents les uns
+ des autres.
+ 
+\end_layout
+
+\begin_layout Itemize
+Principes généraux pour survoler rapidement :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1.
+ remonter en amont les liens de citations ou aller en aval repérer les documents
+ postérieurs qui citent le document pertinent
+\end_layout
+
+\begin_layout Itemize
+2.
+ pour chaque liste de références, trier par nombre de citations pour faire
+ apparaître les plus cités en premier.
+ Suivre les plus cités et refaire l'étape 1.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Principes généraux pour récupérer exhaustivement les documents : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suivre tous les liens de citation pertinents.
+\end_layout
+
+\begin_layout Itemize
+Récupérer tous les documents dans Zotero.
+\end_layout
+
+\begin_layout Itemize
+NB: en arrivant dans Zotero, les liens de citation n'existent plus.
+ Une extension Zotero nommée Cita tente de pallier cette perte d'information
+ mais elle est encore embryonnaire.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La fonction de Mapping tool peut servir à :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Repérer les documents en ligne
+\end_layout
+
+\begin_layout Itemize
+Afficher des graphes à partir d'un corpus de documents existants (en ligne
+ ou en local).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Notion de plateforme
+\end_layout
+
+\begin_layout Itemize
+Souvent les bases de données bibliographiques sont diffusées par des plateformes.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une plateforme peut diffuser plusieurs bases de données.
+ 
+\end_layout
+
+\begin_layout Itemize
+Une même base de données peut parfois être distribuée par plusieurs plateformes
+ (avec des fonctionnalités différentes).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La qualité du moteur de recherche dépend de la plateforme.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avec la même requête, il est possible de chercher dans plusieurs bases de
+ données d'une même plateforme.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La qualité de l'indexation dépend de chaque base de données.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si vous faites une recherche par sujets, il est possible que 2 bases de
+ données d'une même plateformes utilisent deux mots clés sujets différents
+ pour un même concept.
+ Parfois, une base de données n'a pas de sujets et une autre oui.
+ Bref, attention à une recherche multibase avec le champ sujet.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Parcours guidé de recherche sur une plateforme :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rendez-vous sur la page des Bibliothèques
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ > Bases de données de A à Z > Tri : Tous les fournisseurs/éditeurs : Sélectionn
+er EBSCO 
+\begin_inset Formula $\square$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Dans la liste, cliquez sur une base de données diffusée par EBSCO 
+\begin_inset Formula $\square$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Dans la base de données, hébergée par EBSCO, cliquez sur Choose Database.
+ Select All ou faites un sélection pertinente de base de données 
+\begin_inset Formula $\square$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lancez une recherche.
+ Désormais, cette recherche va se faire sur toutes les bases de données
+ sélectionnées 
+\begin_inset Formula $\square$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rappel : attention au champ Sujet, très inégal selon les bases de données.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Autres plateformes multibases majeures :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Web of Science
+\end_layout
+
+\begin_layout Itemize
+ProQuest
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Plateforme Isidore
+\end_layout
+
+\begin_layout Itemize
+Moteur de recherche qui moissone le dépôt HAL de la recherche française,
+ les billets de blogues de Hypothèses, les conférences et les congrès français,
+ etc.
+\end_layout
+
+\begin_layout Subsection
+Plateformes de revues en ligne
+\end_layout
+
+\begin_layout Itemize
+On dit aussi ensemble de revues.
+ Parfois certaines maisons d'édition possèdent une masse critique importantes
+ de revues universitaires et d'articles.
+ Elles décident alors de proposer un moteur de recherche pour chercher dans
+ ce fond.
+ Selon les maisons d'édition, le moteur de recherche est plus ou moins performan
+t.
+\end_layout
+
+\begin_layout Itemize
+Quelques ensembles de revues pertinents :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Erudit.org
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.erudit.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ : revues universitaires et culturelles canadiennes.
+\end_layout
+
+\begin_layout Itemize
+JSTOR
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.jstor.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: une insitution qui numérise des revues universitaires anciennes.
+\end_layout
+
+\begin_layout Itemize
+ScienceDirect
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.sciencedirect.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ : le moteur de recherche de la maison d'édition Elsevier et de ses revues.
+\end_layout
+
+\begin_layout Itemize
+Wiley Online Library
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://onlinelibrary.wiley.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ : maison d'édition Wiley.
+\end_layout
+
+\begin_layout Itemize
+etc.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pourquoi faire des recherches dans ces ensembles, puisque si les bases de
+ données bibliographiques ont bien fait leur travail, je ne devrais y trouver
+ que des choses que je connais déjà ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parfois les bases de données bibliographiques ont des lacunes.
+\end_layout
+
+\begin_layout Itemize
+Parfois les ensembles de revues diffusent aussi d'autres types de documents
+ : actes de colloques, livres électroniques, encyclopédies spécialisées,...
+ 
+\end_layout
+
+\begin_layout Itemize
+Ça prend 15 minutes ☕ pour faire une recherche simple avec quelques mots
+ clés (pas trop) pour tester le contenu de chaque ensemble.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rarement, ces ensembles proposent de faire des alertes.
+ Faites-en.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
 Bases de données en texte intégral
 \end_layout
 
@@ -7692,7 +8771,27 @@ Bases de données de thèses et mémoires : Dissertations & Thesis, etc.
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Subsection
+Eureka.cc : texte intégral d'articles et de journaux
+\end_layout
+
+\begin_layout Subsection
+Dissertations & Thesis : texte intégral de thèses (et mémoires)
+\begin_inset Formula $\bigstar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Autres bases de données de thèses et mémoires
+\end_layout
+
+\begin_layout Standard
+Theses.fr
+\end_layout
+
+\begin_layout Section
 Métamoteur de recherche du web : Google
 \end_layout
 
@@ -7707,7 +8806,7 @@ Plus une page est citée par d'autres pages, plus son crédit augmente (score
  PageRank) et plus elle apparaît en premier dans les résultats.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Moteur de recherche d'un site web
 \end_layout
 
@@ -7746,7 +8845,7 @@ Souvent, cela fonctionne mieux que le moteur de recherche local du site
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Internet Archives
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -7873,27 +8972,27 @@ D'autres sites semblables ont commencé à émerger.
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Types de document
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 livres
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 articles 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Thèses et mémoires
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Identifier d'autres sources d'information
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Suivez l'expert
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -7927,35 +9026,35 @@ Sélectionnez les options de suivi pertinentes pour être prévenus des changeme
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Articles de journaux
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Publications gouvernementales ou non-gouvernementales
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Documents d'archives
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Données numériques
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Preprint
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Données statistiques
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Micro-données ou données d'enquête
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Zotero pour collecter la documentation
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -7974,19 +9073,19 @@ name "chap:ZoteroCollecter"
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Importation
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Nettoyage/ vérification
 \end_layout
 
-\begin_layout Part*
+\begin_layout Part
 Phase de lecture, d'analyse et d'organisation de la documentation
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Objectifs documentaires de la phase de lecture/analyse
 \end_layout
 
@@ -8041,7 +9140,7 @@ Pour remplacer la recherche active de documents dans les outils de recherche.
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Zotero pour organiser la documentation
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -8056,27 +9155,31 @@ name "chap:ZoteroOrganiser"
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Collections
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Marqueurs
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
+Créer un thésaurus personnel
+\end_layout
+
+\begin_layout Section
 Rechercher
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Recherche enregistrée
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Connexe
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Se ternir à jour avec les alertes
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -8084,31 +9187,31 @@ Se ternir à jour avec les alertes
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Alertes par courriel
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Alertes par RSS
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Alertes par Twitter
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Alertes humaines
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Collecter les alertes
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Redistribuer les alertes
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Évaluer ses sources
 \begin_inset Formula $\bigstar\bigstar\bigstar$
 \end_inset
@@ -8116,19 +9219,19 @@ Redistribuer les alertes
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Distinguer les sources 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Critères d'autorité 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
 Critiquer le contenu
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Obsidian.md : prise de notes liées
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -8207,11 +9310,11 @@ Utiliser les #hashtags pour une autre organisation de notes en parallèle.
 
 \end_deeper
 \end_deeper
-\begin_layout Part*
+\begin_layout Part
 Phase de rédaction
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Objectifs documentaires de la phase de rédaction
 \end_layout
 
@@ -8231,7 +9334,7 @@ Parfois continuer à chercher des documents sans fin est un moyen de procrastine
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Respecter le droit d'auteur
 \begin_inset Formula $\bigstar\bigstar\bigstar$
 \end_inset
@@ -8239,27 +9342,27 @@ Respecter le droit d'auteur
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Propriété intellectuelle
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Droit d'auteur en étudiant / employé
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Droit moral / patrimonial
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Creative Commons
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Risques
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Citer sans plagier
 \begin_inset Formula $\bigstar\bigstar\bigstar$
 \end_inset
@@ -8267,23 +9370,23 @@ Citer sans plagier
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Identifier le type de document de ma source
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Insérer une citation dans le texte
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Insérer une référence au document de la source
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Bibliographie et liste de références
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Utilisation de Zotero pour rédiger
 \begin_inset Formula $\bigstar\bigstar$
 \end_inset
@@ -8291,19 +9394,19 @@ Utilisation de Zotero pour rédiger
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Bibliographie simple
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Références dans le texte et bibliographie finale synchronisée
 \end_layout
 
-\begin_layout Part*
+\begin_layout Part
 Au-delà de votre recherche
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Bloguer sur votre sujet de recherche
 \begin_inset Formula $\bigstar$
 \end_inset
@@ -8318,11 +9421,11 @@ name "chap:Bloguer"
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Pourquoi ?
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Vulgarisation de la science
 \end_layout
 
@@ -8352,7 +9455,7 @@ Réactions et commentaires universitaires à l'actualité en lien avec votre
  sujet de recherche.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 S'entraîner à rédiger
 \end_layout
 
@@ -8379,7 +9482,7 @@ Se pratiquer à synthétiser, vulgariser, expliquer clairement pour un public
  2016)
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Promotion
 \end_layout
 
@@ -8420,7 +9523,7 @@ Promotion de votre département, de votre laboratoire, de votre chaire, etc.
  
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Collaboration
 \end_layout
 
@@ -8477,7 +9580,7 @@ Outil de communication avec votre directeur de recherche, vos professeur,
  vos réunions, vos décisions, vos idées, etc.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Archivage informel
 \end_layout
 
@@ -8490,7 +9593,7 @@ Embryons d'idées à developper.
 Bouts de codes ou de méthodes qui pourraient être utiles à d'autres.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Comment ? 
 \end_layout
 
@@ -8510,7 +9613,7 @@ NB : Soyez confortable de ne pas bloguer pendant de longues périodes en
 \end_layout
 
 \end_deeper
-\begin_layout Chapter*
+\begin_layout Chapter
 Wikipédia, Wikidata
 \begin_inset CommandInset label
 LatexCommand label
@@ -8521,23 +9624,23 @@ name "chap:Wikipedia"
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Évaluer une page Wikipédia
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Contribuer à Wikipédia
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Utiliser les données de Wikidata
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Contribuer à Wikidata
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Bibliométrie
 \begin_inset CommandInset label
 LatexCommand label
@@ -8548,39 +9651,76 @@ name "chap:Bibliom"
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Principes et limites
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Facteur d'impact
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 h index
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Autres indicateurs
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Revue de exhaustive de la littérature et revue systématiques
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Chapter
 Où publier / diffuser votre recherche ?
 \end_layout
 
-\begin_layout Chapter*
-Formats de fichiers, multiremplacements et expressions régulières
+\begin_layout Chapter
+Formats de fichiers, multiremplacements et expressions régulières 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Formats"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Section
+Numériser
+\end_layout
+
+\begin_layout Itemize
+Dans la BLSH, vous pouvez accéder à un numériseur de livre rapide (venez
+ avec votre clé USB) et à des numériseurs de précision (pour les photos,
+ les documents d'identité, etc.).
+\end_layout
+
+\begin_layout Itemize
+Si le résultat de votre numérisation est un fichier PDF, vous voulez peut
+ être aussi ajouter une couche électronique de reconnaissance de texte.
+ En effet, si nous ne le faites pas, votre PDF ne contient que des images.
+ Pour ajouter cette couche électronique de texte cliquable, sélectionnable,
+ copier-collable, il faut utiliser la version professionnelle de Abode Acrobat.
+ Elle est disponible sur certains postes de la BLSH (pas tous) et en accès
+ à distance.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Communication par affiche
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Pourquoi ?
 \end_layout
 
@@ -8596,7 +9736,7 @@ En un événememt, présenter beaucoup de projets et faire communiquer les
  
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Comment ?
 \end_layout
 
@@ -8633,7 +9773,7 @@ Objectifs : présenter des résultats, expliquer une méthode de recherche
  en cours, décrire un service, un outil ou un projet.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Éléments essentiels
 \end_layout
 
@@ -8641,7 +9781,7 @@ Objectifs : présenter des résultats, expliquer une méthode de recherche
 Avant de commencer : mettre sur papier l'objectif de votre présentation.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Titre
 \end_layout
 
@@ -8677,7 +9817,7 @@ Pas tout en majuscules.
 + Nom des chercheurs (moins gros)
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Résumé 
 \end_layout
 
@@ -8686,7 +9826,7 @@ Discutable, l'affiche est censé être un résumé.
  
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Introduction
 \end_layout
 
@@ -8694,7 +9834,7 @@ Introduction
 Présenter la problématique.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Méthode
 \end_layout
 
@@ -8710,7 +9850,7 @@ n= ?
 Durée de la recherche.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Résultats
 \end_layout
 
@@ -8718,7 +9858,7 @@ Résultats
 Présenter les résultats.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Conclusion
 \end_layout
 
@@ -8730,7 +9870,7 @@ Pourquoi c'est intéressant
 Recherches futures.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Références bibliographiques
 \end_layout
 
@@ -8742,7 +9882,7 @@ Sélection des principales études utilisées dans l'affiche et la recherche.
 Peut être rédigé en tout petit.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Remerciements
 \end_layout
 
@@ -8755,11 +9895,11 @@ Lister les personnes et/ou institutions à remercier.
 Peut être rédigé en tout petit.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Ergonomie visuelle
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Graphisme
 \end_layout
 
@@ -8932,7 +10072,7 @@ target "https://brandpad.io/umontreal.ca/"
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Vous préparer
 \end_layout
 
@@ -8954,7 +10094,7 @@ Soyez prêt aux imprévus : des punaises pour accrocher, un stylo pour corriger,
  demander si le support est fourni ou pas (affiche dure ou papier).
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Diffuser votre affiche après sa présentation
 \end_layout
 
@@ -8971,7 +10111,7 @@ Portfolio UdeM.
 Internet Archives (avec votre compte).
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Logiciels libres recommandés
 \end_layout
 
@@ -9054,7 +10194,7 @@ target "https://www.scribus.net/"
 \end_layout
 
 \end_deeper
-\begin_layout Section*
+\begin_layout Section
 Sources
 \end_layout
 
@@ -9086,8 +10226,17 @@ target "http://accros.etsmtl.ca/affiche_scientifique/guide.pdf"
 .
 \end_layout
 
-\begin_layout Part*
+\begin_layout Part
 Annexes
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter*
@@ -9133,6 +10282,13 @@ ents de description de document ET le texte intégral de ces documents.
 \end_layout
 
 \begin_layout Standard
+BLSH : Bibliothèque des lettres et sciences humaines (et des sciences sociales)
+ de l'Université de Montréal.
+ On y trouve la tanière de l'auteur de ce manuel.
+ 
+\end_layout
+
+\begin_layout Standard
 Champ : zone d'information contenant un seul type de contenu (ex: titre,
  résumé, mots clés, auteur, URL, etc.)
 \end_layout
@@ -9150,6 +10306,10 @@ Colloque ou congrès : événement où se rencontrent des chercheurs pour partag
 
 \begin_layout Standard
 FAIR : 
+\end_layout
+
+\begin_layout Standard
+Identifiant pérenne : 
 \end_layout
 
 \begin_layout Standard
@@ -9253,7 +10413,26 @@ Thésaurus : liste contrôlée de mots clés pour indexer des documents dans
 \end_layout
 
 \begin_layout Chapter*
+Bibliographie
+\end_layout
+
+\begin_layout Section*
 Bibliographie générale
+\end_layout
+
+\begin_layout Standard
+Guides en ligne des Bibliothèques de l'UdeM : 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://bib.umontreal.ca/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Base de données et outils de recherche
 \end_layout
 
 \begin_layout Standard
@@ -9267,11 +10446,89 @@ target "https://library.smu.edu.sg/topics-insights/3-ways-find-review-papers-sys
 
 \end_layout
 
+\begin_layout Section*
+Archivage
+\end_layout
+
 \begin_layout Standard
-Guides en ligne des Bibliothèques de l'UdeM : 
+Beheim, Bret.
+ « Marie Kondo Meme.
+ This one sparks joy ».
+ 2019.
+ Twitter.
+ 
 \begin_inset CommandInset href
 LatexCommand href
-target "https://bib.umontreal.ca/"
+target "https://twitter.com/babeheim/status/1105893916803514369"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+« Care, Handling and Storage of Works on Paper - Collections Care ».
+ Library of Congress.
+ Consulté le 4 janvier 2019.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.loc.gov/preservation/care/paper.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+« Comment puis-je améliorer les conditions de conservation de mes documents?
+ » Archives Passe-Mémoire , 2010.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.archivespassememoire.org/index.php?option=com_content&view=article&id=81&Itemid=60"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+« Personal Digital Archiving | Digital Preservation ».
+ Library of Congress.
+ Consulté le 4 janvier 2019.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.digitalpreservation.gov/personalarchiving/index.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tremblay, Miguel.
+ « Hors des lieux communs » Les 3 règles d’or pour nommer un fichier ».
+ Consulté le 4 janvier 2019.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://ptaff.ca/blogue/2008/06/29/les_3_rgles_dor_pour_nommer_un_fichier/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vitali-Rosati, Marcello.
+ « Nomenclature d’un fichier ».
+ Culture numérique (blog), 26 mars 2015.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://blog.sens-public.org/marcellovitalirosati/nomenclature-dun-fichier/"
 
 \end_inset
 
